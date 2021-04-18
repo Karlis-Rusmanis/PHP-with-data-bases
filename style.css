@@ -1,0 +1,33 @@
+body {
+  background: rgb(231, 231, 231);
+}
+
+.container {
+  width: 500px;
+  margin: 100px auto;
+}
+
+.container form {
+  display: flex;
+  background: rgba(70, 83, 255, 0.479);
+  padding: 20px;
+
+  flex-direction: column;
+}
+
+.container button {
+  margin-top: 20px;
+}
+
+.message form {
+  background: rgb(105, 186, 252);
+}
+
+.message button {
+  background: rgb(0, 0, 0);
+  color: #fff;
+}
+
+.message form {
+  color: rgb(0, 0, 0);
+}

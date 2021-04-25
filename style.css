@@ -31,3 +31,9 @@ body {
 .message form {
   color: rgb(0, 0, 0);
 }
+
+td,
+th {
+  padding: 10px;
+  border: 1px solid black;
+}

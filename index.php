@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="style.css">
 <a href="message.php">Message</a>
+<a href="number_in_list.php">Number</a>
 
 <div class="container">
     <form action="">

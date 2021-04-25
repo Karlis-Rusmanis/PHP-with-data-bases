@@ -1,5 +1,6 @@
 <!doctype html>
 <a href="index.php">Main</a>
+<a href="number_in_list.php">Number</a>
 <link rel="stylesheet" href="style.css">
 
 <div class="container message">

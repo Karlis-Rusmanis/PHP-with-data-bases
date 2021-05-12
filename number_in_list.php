@@ -67,15 +67,14 @@
     //echo testCondition1($array1);
 
 
+
     /*
     Divu skaitļu summa ir vienāda ar citu skaitli;
     $array = [1, -2, 5, 10, 3, 1, 90, -3];
     (1 + (-3) === (-2)) == TRUE
     return -2;
-
-
-
     */
+
     function testCondition2($array)
     {
         $size = sizeof($array);
@@ -90,6 +89,8 @@
     }
 
     //echo testCondition2($array2);
+
+
 
 
     /* Vai skaitļu pieauguma solis ir vienāds;
@@ -124,11 +125,13 @@
 
     //echo testCondition3($array3);
 
+
+
     /* Vai trīs skaitļu summa ir vienāda ar skaitļu daudzmu
     $array = [1, 3, 4, 10, 3, 90, 2];
     $array[0] + $array[1] + $array[4] === count($array);
     1 + 3 + 3 === 7;
-*/
+    */
 
     function testCondition4($array)
     {
@@ -144,6 +147,12 @@
         }
         return "Ceturtais nosacījums neizpildās";
     }
+
+
+
+    /* 
+    Vai skaitļus var sarindot fibonači virknē
+    */
 
 
     function testCondition5($array)
